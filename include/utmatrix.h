@@ -76,7 +76,7 @@ TVector<ValType>::~TVector()
 
 template <class ValType> // доступ
 ValType& TVector<ValType>::operator[](int pos)
-{
+{ return pVector[pos];
 } /*-------------------------------------------------------------------------*/
 
 template <class ValType> // сравнение
@@ -179,12 +179,12 @@ bool TMatrix<ValType>::operator!=(const TMatrix<ValType> &mt) const
 
 template <class ValType> // присваивание
 TMatrix<ValType>& TMatrix<ValType>::operator=(const TMatrix<ValType> &mt)
-{
+{ TMatrix tmp; return tmp;
 } /*-------------------------------------------------------------------------*/
 
 template <class ValType> // сложение
 TMatrix<ValType> TMatrix<ValType>::operator+(const TMatrix<ValType> &mt)
-{
+{ TMatrix tmp; return tmp;
 } /*-------------------------------------------------------------------------*/
 
 template <class ValType> // вычитание
