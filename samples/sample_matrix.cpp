@@ -16,7 +16,7 @@ void main()
 
   setlocale(LC_ALL, "Russian");
   cout << "Тестирование программ поддержки представления треугольных матриц"
-    << endl; /*
+    << endl;
   for (i = 0; i < 5; i++)
     for (j = i; j < 5; j++ )
     {
@@ -26,6 +26,6 @@ void main()
   c = a + b;
   cout << "Matrix a = " << endl << a << endl;
   cout << "Matrix b = " << endl << b << endl;
-  cout << "Matrix c = a + b" << endl << c << endl;*/
+  cout << "Matrix c = a + b" << endl << c << endl;
 }
 //---------------------------------------------------------------------------
