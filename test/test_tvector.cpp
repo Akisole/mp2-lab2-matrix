@@ -108,7 +108,7 @@ TEST(TVector, vectors_with_different_size_are_not_equal)
 
 TEST(TVector, can_add_scalar_to_vector)
 {
-  ADD_FAILURE();
+	ADD_FAILURE();
 }
 
 TEST(TVector, can_subtract_scalar_from_vector)
